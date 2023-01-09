@@ -1,6 +1,6 @@
 .header {
     font-family: Roboto, Arial;
-    height: 200px;
+    height: 50px;
 
     display: flex;
     flex-direction: row;
@@ -21,23 +21,24 @@
 .left-section {
     display: flex;
     align-items: center;
-    width: 1500px;
+    width: 500px;
 }
 
 .logo {
-    width: 18%;
+    width: 16%;
 }
 
 .middle-section {
     flex: 1;
-    margin-left: -16%;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
     display: flex;
     align-items: center;
 }
 
 .name {
-    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 .study,
@@ -56,12 +57,12 @@
     position: absolute;
     background-color: gray;
     color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     border-radius: 2px;
-    font-size: 12px;
+    font-size: 8px;
     bottom: -30px;
     opacity: 0;
     transition: opacity 0.15s;
@@ -76,11 +77,11 @@
 }
 
 .hovertext {
-    font-size: 15px;
+    font-size: 8px;
 }
 
 .right-section {
-    width: 600px;
+    width: 200px;
     margin-left: 100px;
     margin-right: 20px;
     display: flex;
@@ -90,7 +91,7 @@
 }
 
 .practiceimg {
-    width: 80%;
+    width: 50%;
 }
 
 .contestimg {

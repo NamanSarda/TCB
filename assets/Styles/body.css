@@ -1,27 +1,33 @@
 .obox {
     display: inline-block;
     margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .obox1 {
     display: inline-block;
     margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .part2 {
     background-color: rgb(246, 246, 233);
     display: grid;
-    grid-template-rows: 1.75fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
 }
 
 .part1 {
     background-color: rgb(246, 246, 233);
     display: grid;
-    grid-template-rows: 1.75fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+}
+
+.part3 {
+    background-color: rgb(246, 246, 233);
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr;
 }
 
 .page_title {
@@ -33,7 +39,7 @@
 .boxd {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 150px;
 }
 
 .dummy {}
@@ -47,17 +53,17 @@
 .description {
     font-family: Gaglin;
     word-spacing: 10px;
-    line-height: 67px;
-    margin-top: 15%;
+    line-height: 32px;
+    margin-top: 20%;
     margin-left: 7%;
     margin-bottom: 0%;
-    font-size: 45.5px;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .boxi {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     background-color: rgb(69, 125, 88);
 }
@@ -96,15 +102,15 @@
 }
 
 .gfg {
-    width: 35%;
+    width: 38%;
 }
 
 .google {
-    width: 120%;
+    width: 42%;
 }
 
 .udemy {
-    width: 45%;
+    width: 43%;
 }
 
 .box2 {
@@ -116,18 +122,18 @@
 
 .description1 {
     font-family: Gaglin;
-    font-size: 40px;
+    font-size: 18px;
     margin-bottom: 0;
 }
 
 .description2 {
     margin-left: 7.5%;
     margin-right: 7%;
-    font-size: 28px;
+    font-size: 14px;
 }
 
 .accessnow {
-    font-size: 40px;
+    font-size: 14px;
     background-color: rgb(125, 155, 118);
     margin-bottom: 30px;
     border-radius: 6px;
@@ -143,7 +149,7 @@
 }
 
 .codechef {
-    width: 120%;
+    width: 40%;
 }
 
 .leetcode {
@@ -151,17 +157,17 @@
 }
 
 .hackerrank {
-    width: 90%;
+    width: 40%;
 }
 
 .descriptioncontest {
     font-family: Gaglin;
     word-spacing: 10px;
-    line-height: 70px;
-    margin-top: 18%;
-    margin-left: 15%;
+    line-height: 32px;
+    margin-top: 20%;
+    margin-left: 7%;
     margin-bottom: 0%;
-    font-size: 53px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -173,9 +179,63 @@
 }
 
 .titleimg1 {
-    margin-right: 4%;
+    margin-right: -2%;
     margin-top: 11%;
-    margin-left: 9%;
+    margin-left: 10%;
     margin-bottom: 8%;
-    width: 85%;
+    width: 80%;
+}
+
+.boxd1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 1fr;
+}
+
+.boxi1 {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    align-items: center;
+    background-color: rgb(69, 125, 88);
+}
+
+.dcontest {
+    font-family: Gaglin;
+    word-spacing: 10px;
+    line-height: 32px;
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 7%;
+    margin-bottom: 0%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.descriptionlast {
+    font-family: Gaglin;
+    word-spacing: 10px;
+    line-height: 40px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-bottom: 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titleimg3 {
+    margin-right: -2%;
+    margin-top: 11%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    width: 80%;
+}
+
+
+.clist {
+    width: 70%;
+}
+
+.linkedin {
+    width: 50%
 }
